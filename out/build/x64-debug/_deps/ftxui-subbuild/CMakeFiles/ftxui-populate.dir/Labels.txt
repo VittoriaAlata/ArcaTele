@@ -1,0 +1,14 @@
+# Target labels
+ ftxui-populate
+# Source files and their labels
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate-complete.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test.rule
+C:/Users/pierl/Desktop/ArcaTele/out/build/x64-debug/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-update.rule

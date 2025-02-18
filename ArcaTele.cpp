@@ -4,9 +4,10 @@ using namespace ftxui;
 
 int main() {
     std::string ServiziTesto;
+    std::string ServiziDispTesto;
     std::string linguaTesto;
     std::vector<std::string> Lingue_disponibili = { "ITALIANO","ENGLISH","\u0420\u0423\u0421\u0421\u041A\u0418\u0419", };
-    std::vector<std::string> Nazione = { "Italia", "Russia", "Francia" };
+    std::vector<std::string> Nazione = { "Italia", "Россия", "France" };
     std::vector<std::string> Servizi = { "","",""}; //Pre Tel, Prot Civ, Ospedali 
     std::string first_name;
     std::string ArcaTele;
@@ -75,22 +76,25 @@ int main() {
         }
         if (LinguaSelezionata == 0) {
             linguaTesto = "LINGUA        : ";
-            ServiziTesto = "Prefissi Telefonici\nProtezione Civile\nOspedali";
+            ServiziTesto = "Servizi disponibili:";
+            ServiziDispTesto = "Prefissi Telefonici\nProtezione Civile\nOspedali";
         }
         else if (LinguaSelezionata == 1) {
             linguaTesto = "LANGUAGE      : ";
-            ServiziTesto = "Telephone Prefixes\nCivil Protection\nHospitals";
+            ServiziTesto = "Active Services:";
+            ServiziDispTesto = "Telephone Prefixes\nCivil Protection\nHospitals";
         }
         else if (LinguaSelezionata == 2) {
-            linguaTesto = "\u042F\u0417\u042B\u041A      : ";
-            ServiziTesto = "Телефонные префиксы\nГражданская защита\nБольницы";
+            linguaTesto = "ЯЗЫК      : ";
+            ServiziTesto = "Доступные услуги:";
+            ServiziDispTesto = "Телефонные префиксы\nГражданская защита\nБольницы";
         }
 
         return gridbox({
             { text(ArcaTele) },
             {vbox(Toggle_Nazioni->Render(), filler() | border)},
             { separator() },
-            { hbox(paragraph(map) | borderStyled(BorderStyle::DOUBLE), Tab_Servizi->Render(),  paragraph(ServiziTesto), filler() | border)},
+            { hbox(paragraph(map) | borderStyled(BorderStyle::DOUBLE), Tab_Servizi->Render(),  paragraph(ServiziDispTesto), filler() | border)},
             {  },
             { hbox(text(" First name : "), input_first_name->Render(), filler())},
             { filler() },

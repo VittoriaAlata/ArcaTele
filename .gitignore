@@ -3,7 +3,6 @@
 
 #VS Folder
 .vs
-out
 
 # Compiled Object files
 *.slo

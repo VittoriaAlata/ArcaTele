@@ -4,7 +4,7 @@
 using namespace ftxui;
 
 int main() {
-    Map(str_map_it, str_map_ru, str_map_fr);
+    Map(str_map_it, str_map_ru, str_map_fr, str_map_it_preftel);
 
     Component Lingua = Toggle(&Lingue_disponibili, &LinguaSelezionata);
     Component input_first_name = Input(&first_name, "first name");
@@ -14,14 +14,15 @@ int main() {
         {
             Radiobox(&Servizi, &ServizioSelezionato),
         },
-        &Tab_Sevizio_Sel);
+    &Tab_Sevizio_Sel
+    );
 
     auto container = Container::Vertical({
         Toggle_Nazioni,
         Tab_Servizi,
         input_first_name,
         Lingua,
-        });
+    });
 
     auto renderer = Renderer(container, [&] {
         if (NazioneSelezionata == 0) {
@@ -50,6 +51,9 @@ int main() {
             ServiziTesto = "Доступные услуги:";
             ServiziDispTesto = " \nТелефонные префиксы\nГражданская защита\nБольницы";
         }
+        if (ServizioSelezionato == 1) {
+            map = str_map_it_preftel;
+        }
 
         return gridbox({
             { text(ArcaTele)},
@@ -60,11 +64,11 @@ int main() {
                     hbox(Tab_Servizi->Render(),  paragraph(ServiziDispTesto), filler() | border)))
             },
             { hbox(text(" First name : "), input_first_name->Render(), filler(), text(linguaTesto), Lingua->Render())},
-            })
+        })
               | bgcolor(Color::RGB(0,35,140))  // Imposta sfondo blu globalmente
               | borderStyled(BorderStyle::DOUBLE) // Bordo squadrato e leggero
               | color(Color::White);  // Colore del testo bianco
-        });
+    });
 
     auto screen = ScreenInteractive::TerminalOutput();
     screen.Loop(renderer);

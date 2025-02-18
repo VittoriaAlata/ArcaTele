@@ -1,5 +1,4 @@
 ﻿// Arcatele.h: file di inclusione per file di inclusione di sistema standard,
-// o file di inclusione specifici del progetto.
 
 #pragma once
 
@@ -28,5 +27,3 @@ int LinguaSelezionata = 0;
 int NazioneSelezionata = 0;
 int ServizioSelezionato = 0;
 int Tab_Sevizio_Sel = 0;
-
-// TODO: Fare riferimento qui alle intestazioni aggiuntive richieste dal programma.

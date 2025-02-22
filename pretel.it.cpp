@@ -8,19 +8,20 @@
 #include "ftxui/component/screen_interactive.hpp"
 #include "ftxui/dom/elements.hpp"
 #include <fstream>
-#include "pretelit.h"
 
 using namespace ftxui;
 
 // Definisco la funzione PreTelIt che crea una nuova finestra
-void PreTelIt(void) {
+void PreTelIt(std::string&map_it_pretel) {
     auto screen = ScreenInteractive::TerminalOutput();
-    auto window_content = Renderer([] {
+    auto window_content = Renderer([&] {
+        std::string mappa;
+        mappa = map_it_pretel;
         return gridbox({
             { text("Prefissi Telefonici Italiani")},
             {vbox({
             separator(),
-            paragraph(""),
+            paragraph(mappa),
           text("Q per uscire.") | hcenter })}
         })
         | bgcolor(Color::RGB(5, 35, 130))  // Imposta sfondo blu globalmente

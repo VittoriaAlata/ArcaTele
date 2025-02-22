@@ -56,7 +56,7 @@ int main() {
         }
         if (ServizioSelezionato == 1) {
             //Rimanda alla funzione statica PreTelIt che contiene la finestra
-            PreTelIt();
+            PreTelIt(str_map_it_preftel);
             //Quando si chiude la finestra si sottrae 1 a ServizioSelezionato così da uscire dal loop 
             //(Si ritornava semopre a PreTelIt poichè ServizioSelezionato era sempre 1)
             ServizioSelezionato =- 1;

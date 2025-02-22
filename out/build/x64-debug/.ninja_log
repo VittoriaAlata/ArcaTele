@@ -7,7 +7,7 @@
 20	1175	7615152768460363	_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.obj	37fbe6d36d58b3c5
 15	662	7615152763450982	_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj	94a62356b35f3e96
 36	1460	7615152771404299	_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.obj	2e080068e4bb4ff2
-38	1926	7616149793861720	CMakeFiles/ArcaTele.dir/ArcaTele.cpp.obj	ec099b73beab8bff
+34	1904	7619572338120008	CMakeFiles/ArcaTele.dir/ArcaTele.cpp.obj	ec099b73beab8bff
 11	687	7615152763635908	_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj	b0ba5205c654d891
 49	1559	7615152772405780	_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.obj	91be358dec18966a
 28	889	7615152765427155	_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj	23572c067d723208
@@ -57,7 +57,7 @@
 4483	6126	7615152817989332	_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.obj	7fb6b9718e3c5e7b
 4683	6792	7615152824687553	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj	7261fba0d36bf087
 4992	6851	7615152824949991	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj	da3334bd015c5a4b
-1926	2231	7616149796263479	ArcaTele.exe	6ed0e4ece9b99529
+1372	1523	7619560467127518	ArcaTele.exe	cdc99b1789021ad5
 5475	7524	7615152832003255	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj	1a6b4613abda
 5148	7161	7615152828400020	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj	5318b216ee467637
 5297	7220	7615152828962575	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj	82e21d98d54b5144
@@ -75,10 +75,9 @@
 7649	9057	7615152847332922	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj	ea185e45fa3a5bf5
 7220	9164	7615152848466680	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj	3443003a50026f71
 7161	9293	7615152849722219	_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj	f61e092e507918e1
-37	944	7616110825585456	CMakeFiles/ArcaTele.dir/Map.cpp.obj	df83a2bcf4dd4dda
+37	655	7619565968830587	CMakeFiles/ArcaTele.dir/Map.cpp.obj	df83a2bcf4dd4dda
 9293	9401	7615152850515366	_deps/ftxui-build/ftxui-component.lib	c1e8f2ab779cfc86
-3	2423	7619448003330757	build.ninja	610fd9da5b355fa9
-42	1656	7616149791108604	CMakeFiles/ArcaTele.dir/pretel.it.cpp.obj	44e2ee18e2308bdf
-42	3436	7619456524329269	CMakeFiles/ArcaTele.dir/pretel.it.cpp.obj	44e2ee18e2308bdf
-37	3563	7619456525612701	CMakeFiles/ArcaTele.dir/ArcaTele.cpp.obj	ec099b73beab8bff
-3564	4301	7619456531671047	ArcaTele.exe	6ed0e4ece9b99529
+3	2423	7619574440817123	build.ninja	610fd9da5b355fa9
+33	1360	7619573995661618	CMakeFiles/ArcaTele.dir/pretel.it.cpp.obj	44e2ee18e2308bdf
+3	529	7619574721635294	CMakeFiles/ArcaTele.dir/Map.cpp.obj	df83a2bcf4dd4dda
+530	777	7619574723589139	ArcaTele.exe	6ed0e4ece9b99529

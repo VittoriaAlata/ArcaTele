@@ -6,6 +6,7 @@ void Map(std::string& str_map_it, std::string& str_map_ru, std::string& str_map_
 
     //Input File Stream delle mappe mute delle Nazioni
 
+
     std::ifstream map_ru(".\\map\\ru");
     std::ifstream map_it(".\\map\\it");
     std::ifstream map_fr(".\\map\\fr");
@@ -27,7 +28,7 @@ void Map(std::string& str_map_it, std::string& str_map_ru, std::string& str_map_
     }
 
     //Input File Stream delle mappe dei Prefissi Telefonici delle Nazioni
-    
+
     std::ifstream map_it_preftel(".\\map\\it.pt.01");
 
     if (map_it_preftel) {

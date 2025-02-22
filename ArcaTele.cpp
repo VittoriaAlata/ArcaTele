@@ -1,6 +1,6 @@
 ﻿#include "ArcaTele.h"
 #include "Map.h"
-#include "pretel.it.cpp"
+#include "pretelit.h"
 
 using namespace ftxui;
 
@@ -67,7 +67,7 @@ int main() {
             { vbox(Toggle_Nazioni->Render(), filler() | border)},
             { separator()},
             { hbox(paragraph(map) | borderStyled(BorderStyle::DOUBLE), 
-                vbox(text("") | border, paragraph(ServiziTesto), 
+                vbox(text("") | border, paragraph(ServiziTesto),
                     hbox(Tab_Servizi->Render(),  paragraph(ServiziDispTesto), filler() | border)))
             },
             { hbox(text(" First name : "), input_first_name->Render(), filler(), text(linguaTesto), Lingua->Render())},

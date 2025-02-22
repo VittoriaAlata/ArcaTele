@@ -11,7 +11,6 @@
 #include "ftxui/component/component_base.hpp"
 #include "ftxui/component/screen_interactive.hpp"
 #include "ftxui/dom/elements.hpp"
-#include "out/build/x64-debug/_deps/ftxui-src/src/ftxui/dom/table.cpp"
 #include <fstream>
 
 std::string ServiziTesto;

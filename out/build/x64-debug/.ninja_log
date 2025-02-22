@@ -79,3 +79,6 @@
 9293	9401	7615152850515366	_deps/ftxui-build/ftxui-component.lib	c1e8f2ab779cfc86
 3	2423	7619448003330757	build.ninja	610fd9da5b355fa9
 42	1656	7616149791108604	CMakeFiles/ArcaTele.dir/pretel.it.cpp.obj	44e2ee18e2308bdf
+42	3436	7619456524329269	CMakeFiles/ArcaTele.dir/pretel.it.cpp.obj	44e2ee18e2308bdf
+37	3563	7619456525612701	CMakeFiles/ArcaTele.dir/ArcaTele.cpp.obj	ec099b73beab8bff
+3564	4301	7619456531671047	ArcaTele.exe	6ed0e4ece9b99529

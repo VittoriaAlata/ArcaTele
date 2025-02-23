@@ -1,17 +1,4 @@
-﻿// Arcatele.h: file di inclusione per file di inclusione di sistema standard,
-
-#pragma once
-
-#include <iostream>
-#include <memory>
-#include <string>
-#include <vector>
-#include "ftxui/component/captured_mouse.hpp"
-#include "ftxui/component/component.hpp"
-#include "ftxui/component/component_base.hpp"
-#include "ftxui/component/screen_interactive.hpp"
-#include "ftxui/dom/elements.hpp"
-#include <fstream>
+﻿#pragma once
 
 std::string ServiziTesto;
 std::string ServiziDispTesto;
@@ -20,7 +7,6 @@ std::vector<std::string> Lingue_disponibili = { "ITALIANO","ENGLISH","РУССК
 std::vector<std::string> Nazione = { "Italia", "Россия", "France" };
 std::vector<std::string> Servizi = { "","","","" }; //Pre Tel, Prot Civ, Ospedali 
 std::string first_name;
-std::string ArcaTele;
 std::string map;
 int LinguaSelezionata = 0;
 int NazioneSelezionata = 0;

@@ -25,4 +25,7 @@ std::string map;
 int LinguaSelezionata = 0;
 int NazioneSelezionata = 0;
 int ServizioSelezionato = 0;
+int ServizioSelezionatocell = 0;
+int ServizioSelezionato1 = 0;
+int ServizioSelezionato2 = 0;
 int Tab_Sevizio_Sel = 0;

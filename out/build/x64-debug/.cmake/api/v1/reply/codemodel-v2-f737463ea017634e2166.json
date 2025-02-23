@@ -109,14 +109,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ArcaTele::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ArcaTele-Debug-8e879401f7b38b92339f.json",
+					"jsonFile" : "target-ArcaTele-Debug-b30fefdb4097fa309460.json",
 					"name" : "ArcaTele",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "component::@b65f64d0ea8424dee96a",
-					"jsonFile" : "target-component-Debug-de310ba01859f01c5459.json",
+					"jsonFile" : "target-component-Debug-1cc67f4382503037894f.json",
 					"name" : "component",
 					"projectIndex" : 1
 				},

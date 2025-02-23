@@ -13,53 +13,68 @@ int main() {
     Component input_first_name = Input(&first_name, "first name");
     Component Toggle_Nazioni = Toggle(&Nazione, &NazioneSelezionata);
 
-    auto Tab_Servizi = Container::Tab(
+    auto Tab_Servizi_cell = Container::Tab(
         {
-            Radiobox(&Servizi, &ServizioSelezionato),
+            Radiobox(&Servizi, &ServizioSelezionatocell),
         },
-    &Tab_Sevizio_Sel
-    );
+        &Tab_Sevizio_Sel
+        );
 
     auto container = Container::Vertical({
         Toggle_Nazioni,
-        Tab_Servizi,
+        Tab_Servizi_cell,
         input_first_name,
         Lingua,
     });
 
     auto renderer = Renderer(container, [&] {
-        if (NazioneSelezionata == 0) {
+        switch (NazioneSelezionata) {
+        case 0:
             ArcaTele = "Programma per le informazioni geografiche standardizzate";
             map = str_map_it;
-        }
-        else if (NazioneSelezionata == 1) {
+            ServizioSelezionato = ServizioSelezionatocell;
+            break;
+        case 1:
             map = str_map_ru;
-        }
-        else if (NazioneSelezionata == 2) {
+            ServizioSelezionato1 = ServizioSelezionatocell;
+            break;
+        case 2:
             map = str_map_fr;
+            ServizioSelezionato2 = ServizioSelezionatocell;
+            break;
+        default:
+            break;
         }
-        if (LinguaSelezionata == 0) {
+        switch (LinguaSelezionata){
+        case 0:
             linguaTesto = "LINGUA: ";
             ServiziTesto = "Servizi disponibili:";
             ServiziDispTesto = " \nPrefissi Telefonici\nProtezione Civile\nOspedali";
-        }
-        else if (LinguaSelezionata == 1) {
+            break;
+        case 1:
             linguaTesto = "LANGUAGE: ";
             ServiziTesto = "Active Services:";
             //Segnaposto e codici di escape per avere testo come stringa che varia con la scelta della lingua
             ServiziDispTesto = " \nTelephone Prefixes\nCivil Protection\nHospitals";
-        }
-        else if (LinguaSelezionata == 2) {
+            break;
+        case 2:
             linguaTesto = "ЯЗЫК: ";
             ServiziTesto = "Доступные услуги:";
             ServiziDispTesto = " \nТелефонные префиксы\nГражданская защита\nБольницы";
+            break;
+        default:
+            break;
         }
-        if (ServizioSelezionato == 1) {
+        switch (ServizioSelezionato) { //Reindirizzamento a servizi italiani con switch
+        case 1:
             //Rimanda alla funzione statica PreTelIt che contiene la finestra
             PreTelIt(str_map_it_preftel);
             //Quando si chiude la finestra si sottrae 1 a ServizioSelezionato così da uscire dal loop 
             //(Si ritornava semopre a PreTelIt poichè ServizioSelezionato era sempre 1)
-            ServizioSelezionato =- 1;
+            ServizioSelezionatocell--;
+            break;
+        default:
+            break;
         }
 
         return gridbox({
@@ -68,7 +83,7 @@ int main() {
             { separator()},
             { hbox(paragraph(map) | borderStyled(BorderStyle::DOUBLE), 
                 vbox(text("") | border, paragraph(ServiziTesto),
-                    hbox(Tab_Servizi->Render(),  paragraph(ServiziDispTesto), filler() | border)))
+                    hbox(Tab_Servizi_cell->Render(),paragraph(ServiziDispTesto), filler() | border)))
             },
             { hbox(text(" First name : "), input_first_name->Render(), filler(), text(linguaTesto), Lingua->Render())},
         })
@@ -76,9 +91,6 @@ int main() {
               | borderStyled(BorderStyle::DOUBLE) // Bordo squadrato e leggero
               | color(Color::White);  // Colore del testo bianco
     });
-
-    //TODO: Creare servizi, schermate e nuovi file sorgente appositi per ogni nazione per far si che non vi sia una 
-    //sovrapposizione dei prefissi tra nazioni e il programma non si limiti solo a cambiare valore alla stringa map
 
     auto screen = ScreenInteractive::TerminalOutput();
     screen.Loop(renderer);

@@ -52,7 +52,7 @@
 1. Run the program:
 
     ```bash
-    ./arcaTele
+    ./ArcaTele
     ```
 
 2. Enter the required data in the search form.

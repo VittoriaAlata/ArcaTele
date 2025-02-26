@@ -12,6 +12,7 @@
 ## System Requirements
 
 - C++ Compiler
+- CMake
 
 ## Installation
 
@@ -27,10 +28,23 @@
     cd ArcaTele
     ```
 
-3. Compile the program:
+3. Create a build directory and navigate to it:
 
     ```bash
-    g++ -o arcaTele ArcaTele.cpp
+    mkdir build
+    cd build
+    ```
+
+4. Generate the build files using CMake:
+
+    ```bash
+    cmake ..
+    ```
+
+5. Compile the program:
+
+    ```bash
+    make
     ```
 
 ## Usage
@@ -38,7 +52,7 @@
 1. Run the program:
 
     ```bash
-    ./ArcaTele
+    ./arcaTele
     ```
 
 2. Enter the required data in the search form.

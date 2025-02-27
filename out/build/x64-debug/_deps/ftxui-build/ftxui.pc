@@ -1,9 +1,0 @@
-prefix="C:/Users/pierl/Desktop/ArcaTele/out/install/x64-debug"
-libdir="C:/Users/pierl/Desktop/ArcaTele/out/install/x64-debug/lib"
-includedir="C:/Users/pierl/Desktop/ArcaTele/out/install/x64-debug/include"
-
-Name: ftxui
-Description: 
-Version: 5.0.0
-Cflags: -I${includedir}
-Libs: -L${libdir} -lftxui-component -lftxui-dom -lftxui-screen

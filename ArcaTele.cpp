@@ -6,7 +6,9 @@
 
 int main() {
     //Funzione Map per caricare nelle stringhe le mappe
-    Map(str_map_it, str_map_ru, str_map_fr, str_map_it_preftel);
+    // Ritenuta Obsoleta
+    // Map(str_map_it, str_map_ru, str_map_fr, str_map_it_preftel);
+    // 
     //Componenti
     Component Lingua = Toggle(&Lingue_disponibili, &LinguaSelezionata);
     Component input_first_name = Input(&first_name, "first name");

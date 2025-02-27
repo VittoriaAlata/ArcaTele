@@ -4,6 +4,8 @@
 #VS Folder
 .vs
 
+map
+
 # Compiled Object files
 *.slo
 *.lo

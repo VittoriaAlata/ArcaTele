@@ -614,6 +614,7 @@ void PreTelIt(string&map_it_pretel) {
         //TODO: Aggiungere dentro if delle zone altri se, se Return viene premuto allora entra nella window della Zona selezionata
         return true;
     });
+    screen.Clear();
 
     screen.Loop(component);  // Avvia il loop principale una volta sola
 

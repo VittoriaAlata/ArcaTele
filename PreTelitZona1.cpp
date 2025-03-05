@@ -9,7 +9,7 @@ void PreTelItZona1(string& map_it_pretel) {
         string mappa = map_it_pretel;
 
         return gridbox({
-            { text("Mappa dei prefissi telefonici italiani ZONA 1 ")},
+            { text("Mappa del prefissi telefonici della zona 01 italiana e i suoi distretti")},
             {vbox({
             separator(),
             hbox(
@@ -25,7 +25,26 @@ void PreTelItZona1(string& map_it_pretel) {
                     paragraph(";Ϊλ΄;;νΪΓΓΤϊφ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("φΦΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("ΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ΪΦψΦΪΦΪΪΜς") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    paragraph("ΪΦψΦΪΦΪΪΜς") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 3
+                    paragraph("\n΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪϊϊϊϊϊϊϊϊϊϊϊϊϊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪΪΪΪΪΪΪΪΪ΅") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 4
+                    paragraph("\n΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("Γϊϊϊϊϊϊϊϊϊϊϊϊϊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΦΪΪΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪΪΪ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΦΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪΦ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
                     )
                     ),
                     filler() | borderEmpty,

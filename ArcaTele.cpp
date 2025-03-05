@@ -9,6 +9,8 @@ int main() {
     // Ritenuta Obsoleta
     // Map(str_map_it, str_map_ru, str_map_fr, str_map_it_preftel);
     // 
+    //Screen
+    auto screen = ScreenInteractive::TerminalOutput();
     //Componenti
     Component Lingua = Toggle(&Lingue_disponibili, &LinguaSelezionata);
     Component input_first_name = Input(&first_name, "first name");
@@ -19,16 +21,16 @@ int main() {
     },&Tab_Sevizio_Sel
     );
     auto container = Container::Vertical({
-        Toggle_Nazioni,Tab_Servizi_cell,input_first_name,Lingua,
+        Toggle_Nazioni,Tab_Servizi_cell,Lingua,
     });
-    auto renderer = Renderer(container, [&] {
+    auto piano = Renderer(container, [&] {
         //Switch per la Nazione
         switch (NazioneSelezionata) {
         case 0:map = str_map_it;ServizioSelezionato = ServizioSelezionatocell;
             break;
-        case 1:map = str_map_ru;ServizioSelezionato1 = ServizioSelezionatocell;
+        case 2:map = str_map_ru;ServizioSelezionato1 = ServizioSelezionatocell;
             break;
-        case 2:map = str_map_fr;ServizioSelezionato2 = ServizioSelezionatocell;
+        case 1:map = str_map_fr;ServizioSelezionato2 = ServizioSelezionatocell;
             break;
         default:break;
         }
@@ -74,10 +76,15 @@ int main() {
                     hbox(Tab_Servizi_cell->Render(),paragraph(ServiziDispTesto), filler() | borderStyled(BorderStyle::EMPTY)), text(linguaTesto), Lingua->Render()))
             },
             /*{ hbox(text(" First name : "), input_first_name->Render(), filler(), )}, */
-        })| bgcolor(Color::RGB(0,35,140)) | borderStyled(BorderStyle::DOUBLE)| color(Color::White);
+        })| bgcolor(Color::RGB(0,0,0)) | borderStyled(BorderStyle::DOUBLE)| color(Color::White);
     });
-    //Screen
-    auto screen = ScreenInteractive::TerminalOutput();
-    screen.Loop(renderer);
+    piano |= CatchEvent([&](Event event) {
+           if (event == Event::Character('q')) {
+             screen.ExitLoopClosure()();
+             return true;
+           }
+           return false;
+         });
+    screen.Loop(piano);
     screen.Clear();
 }

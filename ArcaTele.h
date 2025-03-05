@@ -5,7 +5,7 @@ string ServiziTesto;
 string ServiziDispTesto;
 string linguaTesto;
 vector<string> Lingue_disponibili = { "ITALIANO","ENGLISH","РУССКИЙ" };
-vector<string> Nazione = { "Italia", "Россия", "France" };
+vector<string> Nazione = { "Italia", "France" };
 vector<string> Servizi = { "","","","" }; //Pre Tel, Prot Civ, Ospedali 
 string first_name;
 string map;

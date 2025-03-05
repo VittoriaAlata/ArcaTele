@@ -3,11 +3,11 @@
 
 #VS Folder
 .vs
-
+#Mappe (Discontinuo)
 map
-
+#Build del Progetto
 out
-
+build
 # Compiled Object files
 *.slo
 *.lo

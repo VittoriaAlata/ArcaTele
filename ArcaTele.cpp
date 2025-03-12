@@ -5,10 +5,6 @@
 #include "PreTelitZona1.h"
 
 int main() {
-    //Funzione Map per caricare nelle stringhe le mappe
-    // Ritenuta Obsoleta
-    // Map(str_map_it, str_map_ru, str_map_fr, str_map_it_preftel);
-    // 
     //Screen
     auto screen = ScreenInteractive::TerminalOutput();
     //Componenti
@@ -79,7 +75,7 @@ int main() {
         })| bgcolor(Color::RGB(0,0,0)) | borderStyled(BorderStyle::DOUBLE)| color(Color::White);
     });
     piano |= CatchEvent([&](Event event) {
-           if (event == Event::Character('q')) {
+           if (event == Event::Character('q') || event == Event::Character('Q')) {
              screen.ExitLoopClosure()();
              return true;
            }

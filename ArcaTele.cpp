@@ -2,7 +2,7 @@
 #include "ArcaTele.h"
 #include "Map.h"
 #include "PreTelit.h"
-#include "PreTelitZona1.h"
+#include "ptitz1.h"
 
 int main() {
     //Screen

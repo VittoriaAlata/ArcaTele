@@ -1,6 +1,6 @@
 ﻿#include "ArcaTeleGlob.h"
 #include "PreTelitLocal.h"
-#include "PreTelitZona1.h"
+#include "ptitz1.h"
 
 // Definisco la funzione PreTelIt che crea una nuova finestra
 void PreTelIt(string&map_it_pretel) {

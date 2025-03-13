@@ -23,7 +23,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(ftxui)
 
 # Aggiungere l'origine all'eseguibile di questo progetto.
-add_executable (ArcaTele "ArcaTele.cpp" "ArcaTele.h" "Map.h" "PreTelit.cpp" "PreTelit.h" "ArcaTeleGlob.h" "PreTelitLocal.h" "PreTelitZona1.h" "PreTelitZona1.cpp")
+add_executable (ArcaTele "ArcaTele.cpp" "ArcaTele.h" "Map.h" "PreTelit.cpp" "PreTelit.h" "ArcaTeleGlob.h" "PreTelitLocal.h" "ptitz1.h" "ptitz1.cpp" "ptitz1c.h")
 
 # Linka FTXUI al tuo eseguibile
 target_link_libraries(ArcaTele PRIVATE ftxui::screen ftxui::dom ftxui::component)

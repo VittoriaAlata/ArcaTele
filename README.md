@@ -65,8 +65,8 @@
 
 ## Contributions
 
-[Mappa de prefissi telefonici italiani Maximilian Dörrbecker (Chumwa) - Opera propria, CC BY-SA 2.5] {./img/Mappa.prefissi.telefonici.italiani.png}
-,
+[Mappa de prefissi telefonici italiani Maximilian Dörrbecker (Chumwa) - Opera propria, CC BY-SA 2.5] 
+![img30](https://raw.githubusercontent.com/VittoriaAlata/ArcaTele/refs/heads/master/img/ptit.png)
 Opera modificata, reinventata in chiave TUI e resa interattiva tramite selezione e inserimento di window per le diverse Zone.
 
 ## License

@@ -58,7 +58,7 @@
     ./ArcaTele
     ```
 
-2. Enter the required data in the search form.]
+2. Enter the required data in the search form.
 ![img1](https://raw.githubusercontent.com/VittoriaAlata/ArcaTele/refs/heads/master/img/Mappa.prefissi.telefonici.italiani.selezionato.png)
 4. View the results and search the necessary emergency and health services.
 ![img2](https://raw.githubusercontent.com/VittoriaAlata/ArcaTele/refs/heads/master/img/Mappa.prefissi.telefonici.italiani.png)

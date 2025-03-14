@@ -46,7 +46,10 @@
     ```bash
     make
     ```
-
+    or
+   ```bash
+    cmake --build .
+    ```
 ## Usage
 
 1. Run the program:
@@ -56,14 +59,16 @@
     ```
 
 2. Enter the required data in the search form.
-3. View the results and contact the necessary emergency and health services.
+![img1](https://raw.githubusercontent.com/VittoriaAlata/ArcaTele/refs/heads/master/img/Mappa.prefissi.telefonici.italiani.selezionato.png)
+4. View the results and search the necessary emergency and health services.
+![img2](https://raw.githubusercontent.com/VittoriaAlata/ArcaTele/refs/heads/master/img/Mappa.prefissi.telefonici.italiani.png)
 
 ## Contributions
 
-[Mappa de prefissi telefonici italiani Maximilian Dörrbecker (Chumwa) - Opera propria, CC BY-SA 2.5] {./img/Mappa.prefissi.telefonici.italiani.png}
-,
+[Mappa de prefissi telefonici italiani Maximilian Dörrbecker (Chumwa) - Opera propria, CC BY-SA 2.5] 
+![img30](https://raw.githubusercontent.com/VittoriaAlata/ArcaTele/refs/heads/master/img/ptit.png)
 Opera modificata, reinventata in chiave TUI e resa interattiva tramite selezione e inserimento di window per le diverse Zone.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.

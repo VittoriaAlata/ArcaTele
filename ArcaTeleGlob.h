@@ -16,6 +16,10 @@ using namespace std;
 
 //IMPOSTAZIONI E DEFINIZIONI PRIMARIE
 
+	//COLORI MENU PRINCIPALE
+	//DEFINIZIONE Background rosso ,verde, blu
+    extern int bgR, bgG, bgB; 
+
     //COLORI, BOOL ZONE MAPPA ITALIA
 
     //DEFINIZIONE Colore Zona 1 Iniziale e Finale rosso, verde, blu
@@ -80,3 +84,9 @@ using namespace std;
     //DEFINIZIONE ALTO CONTRASTO ZONA 2   
     extern int AC02R, AC02G, AC02B;
 
+	//COLORI AGGIUNTIVI PER DISTRETTI
+
+	//DEFINIZIONE Colore Zona 1 Distretti
+		extern int Light_SalmonR,Light_SalmonG,Light_SalmonB;
+		extern int CoralR,CoralR,CoralB;
+		extern int TomatoR,TomatoG,TomatoB;

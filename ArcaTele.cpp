@@ -64,14 +64,13 @@ int main() {
         }
         return gridbox({
             { text("ArcaTele") | bold | hcenter | bgcolor(Color::RGB(1,10,0)) | color(Color::CadetBlue) },
-            { vbox(Toggle_Nazioni->Render())},
-            { separator()},
+            { hbox(text("Nazione: "), Toggle_Nazioni->Render())},
             { hbox(paragraph(map) | borderStyled(BorderStyle::DOUBLE), 
                 vbox(text("") | borderStyled(BorderStyle::EMPTY), paragraph(ServiziTesto),
                     hbox(Tab_Servizi_cell->Render(),paragraph(ServiziDispTesto), filler() | borderStyled(BorderStyle::EMPTY)), text(linguaTesto), Lingua->Render()))
             },
             /*{ hbox(text(" First name : "), input_first_name->Render(), filler(), )}, */
-        })| bgcolor(Color::RGB(0,0,0)) | borderStyled(BorderStyle::DOUBLE)| color(Color::White);
+        })| bgcolor(Color::RGB(bgR,bgG,bgB)) | borderStyled(BorderStyle::DOUBLE)| color(Color::White);
     });
     piano |= CatchEvent([&](Event event) {
            if (event == Event::Character('q') || event == Event::Character('Q')) {

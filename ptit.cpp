@@ -1,9 +1,8 @@
 ﻿#include "ArcaTeleGlob.h"
-#include "ptitl.h"
-#include "ptitz1.h"
+#include "ptit.h"
 
 // Definisco la funzione PreTelIt che crea una nuova finestra
-void PreTelIt(string&map_it_pretel) {
+void PreTelIt() {
     auto screen = ScreenInteractive::TerminalOutput();
        
     auto window_content = Renderer([&] {
@@ -394,7 +393,7 @@ void PreTelIt(string&map_it_pretel) {
             cz6sel = false; cz7sel = false; 
             cz8sel = false; cz9sel = false;
         }
-        if (event == Event::F1 && cz1sel == true) PreTelItZona1(map_it_pretel);
+        if (event == Event::F1 && cz1sel == true) PreTelItZona1();
         if (event == Event::Character('2')) {
             cz2r = 255, cz2g = 255, cz2b = 102;
             cz1ir = v2, cz1ig = v2, cz1ib = v2;
@@ -419,6 +418,7 @@ void PreTelIt(string&map_it_pretel) {
             cz6sel = false; cz7sel = false;
             cz8sel = false; cz9sel = false;
         }
+        if (event == Event::F2 && cz2sel == true) PreTelItZona2();
         if (event == Event::Character('3')) {
             cz3ir = 122, cz3ig = 247, cz3ib = 82;
             cz3fr = 93, cz3fg = 132, cz3fb = 28;

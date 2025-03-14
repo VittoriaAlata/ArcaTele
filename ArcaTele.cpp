@@ -2,7 +2,6 @@
 #include "ArcaTele.h"
 #include "map.h"
 #include "ptit.h"
-#include "ptitz1.h"
 
 int main() {
     //Screen
@@ -58,7 +57,7 @@ int main() {
             Quando si chiude la finestra si sottrae 1 a ServizioSelezionato così da uscire dal loop;
             (Si ritornava semopre a PreTelIt poichè ServizioSelezionato era sempre 1);*/
         case 1:
-        PreTelIt(str_map_it_preftel);
+        PreTelIt();
         ServizioSelezionatocell--;
             break;
         default:break;

@@ -1,6 +1,0 @@
-/*Colori Alto Cont*/
-/*Color   SubZones*/
-/*Blu     1       */
-/*Verde   2       */
-/*Magenta 3       */
-/*Arancio 4       */

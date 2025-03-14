@@ -199,39 +199,39 @@ void PreTelItZona1(string& map_it_pretel) {
                     paragraph("\n΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph(";φ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("ΪΪΪΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ψ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("Γϊϊϊϊ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ΪΦΪΪΪΪΪΪΦ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ϊϊϊϊϊϊ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ΪΪφφΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ψ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("Γϊϊϊϊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΦΪΪΪΪΪΪΦ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ϊϊϊϊϊϊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪΪφφΪΪ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("ΪΪΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ΪφΦ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΪφΦ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("Ϊψω") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ων") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ων") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
                     ),
                     hbox( //Riga 21
                     paragraph("\n΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("ΦΪΪΪΪΪΦΦΦΦΦΦΦΦΪΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΓϊϊϊΊ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("φΦΪΪΪΪΪΪΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ψ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΓϊϊϊΊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("φΦΪΪΪΪΪΪΦ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ψ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("Ί") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΦΦΦφφ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΪΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("Φ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΪΪΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ϊϊϊ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΦΦΦφφ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("Φ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ϊϊϊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
                     ),
                     hbox( //Riga 22
                     paragraph("\n΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("φΪΪΪΪΪΪΪΪΪΪΪΪΪΪΦΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("Ϊ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("Ϊ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("βΪΪΪΪΪΪΪΦΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ϊϊϊϊϊϊϊχ;") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ϊϊϊϊϊϊϊχ;") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("ω;") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
                     paragraph("΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("ΑΦΦΦΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
@@ -240,13 +240,73 @@ void PreTelItZona1(string& map_it_pretel) {
                     hbox( //Riga 23
                     paragraph("\n΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("ΦΪΪΪΪΪΪΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΪΪΪΪΪΪΪΪΪφ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΪΪφ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("ΪΪΪΪΪΪΪΪΦΜ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("΄΄΄΄΄΄") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("΅΅΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-					paragraph("ΫξϊΓϊϊϊϊΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
-                    paragraph("ΦΪΪΦφΦΪΪΪΪΪΦω;") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΅΅΅") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΫξϊΓϊϊϊϊΪ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("ΦΪΪΦφΦΪΪΪΪΪΦω;") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
 					paragraph("΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 24
+                    paragraph("\n΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΫΪΪΪΪΪΪΪΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΪΦ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΡ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("·") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΅ΫϊϊΪ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΦΪΪΪΪΪΪΪΪΪΪΪΆΫ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 25
+                    paragraph("\n΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΅΅ΫΨΪΪΪΪΪΪΪΪΪΦΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪΪΪΪ") | color(Color::RGB(cz01sz4R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΦΪΪΪΪΪΪΦ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+                    paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΅Ϋ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΦΪΪΪΪΪΪΪΪΪΦ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 26
+                    paragraph("\n΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΤΫΫΦΆΫΫΫ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪφΪΪΪΪΦΫ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΡΫ΅") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΆΦΪΪΪΪΪΪΪΦ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 27
+                    paragraph("\n΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("Ϋ") | color(Color::RGB(cz01sz3R, cz01sz3G, cz01sz3B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΦΪΪΪΪΪ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΓϊϊϊΓ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΅ΨωΫΦΪΦΓ") | color(Color::RGB(cz01sz2R, cz01sz2G, cz01sz2B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 28
+                    paragraph("\n΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΓϊϊΪ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΪ") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΊΓϊ΅") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 29
+                    paragraph("\n΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("Ϊϊϊϊϊϊξ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΪΪΪΆ΅") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
+                    ),
+                    hbox( //Riga 30
+                    paragraph("\n΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΤϊϊϊϊϊϊϊΪ") | color(Color::RGB(cz01sz1R, cz01sz1G, cz01sz1B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("ΪΡ΅") | color(Color::RGB(cz01sz4R, cz01sz4G, cz01sz4B)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
+					paragraph("΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v4, v4, v4)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB))
                     ),
                     hbox( //Riga 31
                     paragraph("\n΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄΄") | color(Color::RGB(v3, v3, v3)) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)),
@@ -287,17 +347,23 @@ void PreTelItZona1(string& map_it_pretel) {
                         filler() | borderEmpty
                         )
                         ),
-                  text("Q per uscire. || Backspace per ricolorare. || 1 - 9 per visualizzare zona su mappa. || F1 - F9 per aprire zona in nuova finestra.") | hcenter })}
+                  text("Q per uscire. || Backspace per ricolorare. || Scrvi il nome del distretto per selezionare. || a per Mod. Alto Contrasto.") | hcenter })}
             }) | bgcolor(Color::RGB(CZ1bgR, CZ1bgG, CZ1bgB)) | borderStyled(BorderStyle::DOUBLE) | color(Color::White);
         });
 
     // Aggiunto un evento per chiudere la finestra quando si preme Q o q 
     auto component = CatchEvent(window_content, [&](Event event) {
-        if (event == Event::Character('A'))AltoContrasto = true;
+        if (event == Event::Character('a'))AltoContrasto = true;
+        if (event == Event::Backspace)AltoContrasto = false;
         if (AltoContrasto == true) {
 			c0165R = cz01sz1R, c0165G = cz01sz1G, c0165B = cz01sz1B;
 			c0166R = cz01sz2R, c0166G = cz01sz2G, c0166B = cz01sz2B;
 			c0125R = cz01sz3R, c0125G = cz01sz3G, c0125B = cz01sz3B;
+        }  
+        if (AltoContrasto == false) {
+			c0165R = Light_SalmonR, c0165G = Light_SalmonG, c0165B = Light_SalmonB;
+			c0166R = CoralR, c0166G = CoralR, c0166B = CoralB;
+			c0125R = TomatoR, c0125G = TomatoG, c0125B = TomatoB;
         }  
         if (event == Event::Character('q') || event == Event::Character('Q')) screen.ExitLoopClosure()(); return true;
     });

@@ -1,5 +1,5 @@
 ﻿#include "ArcaTeleGlob.h"
-#include "PreTelitLocal.h"
+#include "ptitl.h"
 #include "ptitz1.h"
 
 // Definisco la funzione PreTelIt che crea una nuova finestra

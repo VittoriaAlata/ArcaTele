@@ -1,7 +1,7 @@
 ﻿#include "ArcaTeleGlob.h"
 #include "ArcaTele.h"
-#include "Map.h"
-#include "PreTelit.h"
+#include "map.h"
+#include "ptit.h"
 #include "ptitz1.h"
 
 int main() {
